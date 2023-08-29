@@ -1,18 +1,29 @@
-# Vue 3 + TypeScript + Vite
+# Oracle RPG Character Sheet for TaleSpire
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+We're building [a simple tabletop RPG system](https://oracle-rpg.com/) to play by yourself or a friend, and [Talespire](https://talespire.com/) is a fantastic tool to use with our system to set up a game board.
+
+Talespire's modding system is called Symbiotes and uses a Chromium embedded browser which allows programmers like myself to create web apps to embed in the game with ease.
+
+[Join our Discord](https://discord.gg/6tTXjNeVhS) for updates, free stuff and to ask any questions.
+
+## How to use this Symbiote in Talespire
+This Symbiote is built with Vue 3 + Vite as a build tool. To get started, clone this repo, cd into it and run `npm install`. 
+You need to have Node.js version 14.18+, 16+ installed on your system. However, some templates require a higher Node.js version to work, please upgrade if your package manager warns about it.
+
+## How to use this Symbiote in Talespire
+
+Visit Talespire's page to learn how to use this in your copy of Talespire: https://symbiote-docs.talespire.com/user_docs.html
 
 ## Recommended IDE Setup
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+- Whatever floats your boat
 
-## Type Support For `.vue` Imports in TS
+## Contribution Guidelines
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+If you'd like to contribute to this project, please continue reading. I would love to hear your thoughts!
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
-
-1. Disable the built-in TypeScript Extension
-   1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-   2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+-  Please be civil, no rude behaviour will be tolerated. I am only one person with limited time, and might not reply to your request/comment immediately.
+- Once you've found an issue you'd like to work on, please follow these steps to make your contribution:
+  - Comment on it and say you're working on that issue. This is to avoid conflicts with others also working on the issue. 
+  - Write your code and submit a pull request. I am still working on pull request guidelines, please be patient ;)
+  - Wait for code review and address any issues raised as soon as you can.
